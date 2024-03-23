@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=r895rFUbGtE
+
+Dasboard Styling with Auth
+1. Make File
+2. Install ShadCN for tailwind
+3. Install Clerk Provider for Sign In
+4. Make async function for page.ysx bc you want send the components as soon
+as soon as they are ready and not when the whole thing is.
+5. Then implement sign up/in pages
+6. Make folders for signup/signin (Both are imported from clerk and imported form next)
+
+Database
+7. Setup neon db database, paste postgress key in .env
+8. Setup Typescript Drizzle ORM interacts with database without using sql 
