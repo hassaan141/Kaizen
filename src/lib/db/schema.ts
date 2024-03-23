@@ -19,5 +19,5 @@ export const messages = pgTable('messages', {
   chatId: integer('chat_id').references(()=>chats.id).notNull(),
   content: text('content').notNull(),
   createdAt: timestamp('created_at').notNull().defaultNow(),
-  role: 
+  role: userSystemEnum('role').notNull(),
 })

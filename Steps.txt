@@ -11,4 +11,6 @@ as soon as they are ready and not when the whole thing is.
 
 Database
 7. Setup neon db database, paste postgress key in .env
-8. Setup Typescript Drizzle ORM interacts with database without using sql 
+8. Setup Typescript Drizzle ORM interacts with database without using sql
+9. Updated in lib/db/index.ts and schema.ts
+10. Made a drizzle.config.ts file 
